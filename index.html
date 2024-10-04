@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Real World License - Premium Course</title>
+    <!-- Correct Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kTcA6F1+nVmGdkKAPM06mr+EN5l8OezLUJaoUBfCez0i7ZJkMmFi/UYZJZmAalRW4gkLl2NJWfhzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #000;
+            color: #fff;
+            height: auto;
+            min-height: 100vh;
+            overflow-x: hidden;
+            padding: 20px;
+        }
+
+        /* Glass Morphism Container */
+        .glass-container {
+            width: 80%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(255, 223, 0, 0.5);
+            background-image: url('your-image-url.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 50px auto;
+        }
+
+        /* Glowing Animation on Glass Morph */
+        .glass-container::before, .glass-container::after {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 223, 0, 0.1);
+            top: -100px;
+            right: -100px;
+            border-radius: 50%;
+            box-shadow: 0 0 50px gold;
+            animation: glow 8s infinite alternate ease-in-out;
+        }
+
+        .glass-container::after {
+            left: -100px;
+            top: auto;
+            bottom: -100px;
+            animation-delay: 4s;
+        }
+
+        /* Glowing Button */
+        .premium-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: gold;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 15px 20px rgba(255, 223, 0, 0.5), 0 0 10px gold;
+            position: relative;
+            z-index: 1;
+        }
+
+        .premium-button:hover {
+            background-color: white;
+            color: gold;
+            box-shadow: 0px 10px 30px rgba(255, 223, 0, 0.7), 0 0 20px gold;
+        }
+
+        /* Title Styling */
+        h1 {
+            color: gold;
+            font-size: 42px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+
+        /* Paragraph Styling */
+        p {
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 40px;
+        }
+
+        /* Keyframe Animations */
+        @keyframes glow {
+            from {
+                transform: scale(1);
+                opacity: 0.7;
+            }
+            to {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+        }
+
+        /* Icon and Decorative Elements */
+        .icons {
+            margin-top: 20px;
+        }
+        .icon {
+            font-size: 50px;
+            margin: 10px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glass-container">
+        <h1>The Real World License</h1>
+        <p>Exclusive access to Andrew Tate's premium course. Unlock your full potential and dive into a world of luxury and success.</p>
+        <a href="https://mega.nz/folder/iIpHiByD#NolsILhkwqsGtPp990DWUQ" class="premium-button">Open The Real World</a>
+
+        <!-- Decorative Icons -->
+        <div class="icons">
+            <i class="fas fa-gem icon"></i>
+            <i class="fas fa-crown icon"></i>
+        </div>
+    </div>
+
+    <div class="glass-container">
+        <h1> Haven't you had a share yet؟ </h1>
+        <p>Change your life with a little bit of money right now..</p>
+        <a href="https://www.jointherealworld.com/checkout?a=zwqn9rf9&subid=official" class="premium-button">Enroll Now</a>
+    </div>
+
+</body>
